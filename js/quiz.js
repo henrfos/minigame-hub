@@ -102,7 +102,9 @@ const questions = [
         question: "What is 2 + 3?",
         answers: [
             {text: "5", correct: true},
-            {text: "22", correct: false}
+            {text: "22", correct: false},
+            {text: "8", correct: false},
+            {text: "32", correct: false},
         ]
     },
     {
