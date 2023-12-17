@@ -12,6 +12,7 @@ window.addEventListener("load", function() {
     questionElement = document.getElementById("question");
     answerButtonsElement = document.getElementById("answer-buttons");
     questionContainerElement = document.getElementById("question-container");
+    
     startButton.addEventListener("click", startGame);
     nextButton.addEventListener("click", () => {
         currentQuestionIndex++
