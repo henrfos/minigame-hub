@@ -9,7 +9,17 @@
     <title>Document</title>
 </head>
 <body>
-    <p>hello world!</p>
-    
+    <body>
+        <div class="container">
+            <h1>Number Guessing Game</h1>
+            <p>Guess a number between 1 and 100:</p>
+            <input type="number" id="guessInput" min="1" max="100" placeholder="Enter your guess">
+            <button onclick="checkGuess()">Submit Guess</button>
+            <p id="message"></p>
+            <p>Attempts: <span id="attempts">0</span></p>
+            <button onclick="resetGame()">Reset Game</button>
+        </div>
+        <script src="script.js"></script>
+    </body>    
 </body>
 </html>
