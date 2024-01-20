@@ -93,33 +93,33 @@ function clearStatusClass(element){
 
 const questions = [
     {
-        question: "What is 2 + 2?",
+        question: "What is the capital of finland?",
         answers: [
-            {text: "4", correct: true},
-            {text: "22", correct: false}
+            {text: "Helsinki", correct: true},
+            {text: "Stockholm", correct: false}
         ]
     },
     {
-        question: "What is 2 + 3?",
+        question: "What is the most used programming language?",
         answers: [
-            {text: "5", correct: true},
-            {text: "22", correct: false},
-            {text: "8", correct: false},
-            {text: "32", correct: false},
+            {text: "Javascript", correct: true},
+            {text: "Python", correct: false},
+            {text: "SQL", correct: false},
+            {text: "C#", correct: false},
         ]
     },
     {
-        question: "What is 2 + 5?",
+        question: "How many minutes are in a full week?",
         answers: [
-            {text: "7", correct: true},
-            {text: "22", correct: false}
+            {text: "10,080", correct: true},
+            {text: "12,600", correct: false}
         ]
     },
     {
-        question: "What is 2 + 10?",
+        question: "What is the highest-rated film on IMDb as of January 1st, 2024?",
         answers: [
-            {text: "12", correct: true},
-            {text: "22", correct: false}
+            {text: "The shawshank redemption", correct: true},
+            {text: "The godfather", correct: false}
         ]
     },
 ];
