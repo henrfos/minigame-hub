@@ -5,6 +5,10 @@ body {
     height: 100vh;
 }
 
+#h1{
+    text-align: center;
+}
+
 .tic-tac-toe {
     border: 2px solid #343a40;
     border-radius: 8px;
