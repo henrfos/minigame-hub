@@ -3,7 +3,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f8f9fa;
 }
 
 .tic-tac-toe {
@@ -18,7 +17,7 @@ body {
 
 .cell {
     flex: 1;
-    padding: 20px;
+    padding: 35px;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
