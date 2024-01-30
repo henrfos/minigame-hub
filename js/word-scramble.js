@@ -25,11 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function handleGuess() {
         const userInput = document.getElementById('userInput').value.toLowerCase();
+        const guessWord = document.getElementById('guess')
         if (userInput === originalWord) {
-            alert('Congratulations! You guessed the word.');
+            guessWord.textContent = "Congrats! You guessed the word, keep going!"
             startGame();
         } else {
-            alert('Incorrect. Try again!');
+            guessWord.textContent = "Incorrect! Try again"
         }
         document.getElementById('userInput').value = '';
     }
