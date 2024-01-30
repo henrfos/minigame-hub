@@ -16,6 +16,10 @@ body {
     margin-bottom: 20px;
 }
 
+#guessBox{
+    padding-left: 60px;
+}
+
 #userInput {
     width: 200px;
     text-align: center;
