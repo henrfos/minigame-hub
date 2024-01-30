@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const words = ['javascript', 'programming', 'web', 'developer', 'scramble'];
+    const words = ['javascript', 'html', 'css', 'github', 'bootstrap'];
     let scrambledWord = '';
     let originalWord = '';
 
