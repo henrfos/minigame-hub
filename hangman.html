@@ -5,20 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hangman.css">
     <title>Hangman</title>
 </head>
 <body>
-    <div id="hangmanContainer" class="container">
-        <h1>Hangman</h1>
-        <div id="wordToGuess"></div>
-        <img id="hangmanImage" src="https://via.placeholder.com/400" alt="Hangman">
-        <div>
-            <input type="text" id="letterInput" maxlength="1" placeholder="A">
-            <button class="btn btn-primary" id="submitBtn">Submit</button>
+    <div class="container">
+        <div class="hangman-container">
+            <img src="images/hangman-0.svg" alt="">
+            <h1>Hangman</h1>
+        </div>
+        <div class="game-box">
+            <ul class="letter-box">
+                <li class="letter"></li>
+                <li class="letter"></li>
+                <li class="letter"></li>
+                <li class="letter"></li>
+                <li class="letter"></li>
+                <li class="letter"></li>
+            </ul>
+            <h3 class="hint">
+                Here is a hint:
+                <b>HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIINTT</b>
+            </h3>
+            <h3 class="guesses">
+                Guesses:
+                <b>0 / 6</b>
+            </h3>
+            <div class="keyboard">
+                <button>a</button><button>b</button><button>c</button><button>d</button><button>e</button><button>f</button><button>g</button>
+                <button>h</button><button>i</button><button>j</button><button>k</button><button>l</button><button>m</button><button>n</button>
+                <button>o</button><button>p</button><button>q</button><button>r</button><button>s</button><button>t</button><button>u</button>
+                <button>v</button><button>w</button><button>x</button><button>y</button><button>z</button><button>æ</button><button>ø</button>
+                <button>å</button>
+            </div>
         </div>
     </div>
+    
     <script src="js/hangman.js"></script>
-</body>
+</body>    
 </html>
