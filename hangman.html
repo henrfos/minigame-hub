@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="css/hangman.css">
     <title>Hangman</title>
 </head>
-<body>
-    <div class="container">
+<body class="bg-primary">
+    <div class="container bg-light">
         <div class="hangman-container">
             <img src="images/hangman-0.svg" alt="">
             <h1>Hangman</h1>
         </div>
         <div class="game-box">
-            <ul class="letter-box">
+            <ul class="letters">
                 <li class="letter"></li>
+                <li class="letter guessed">b</li>
                 <li class="letter"></li>
                 <li class="letter"></li>
                 <li class="letter"></li>
@@ -25,11 +26,11 @@
             </ul>
             <h3 class="hint">
                 Here is a hint:
-                <b>HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIINTT</b>
+                <b>Has something to do with norway</b>
             </h3>
             <h3 class="guesses">
                 Guesses:
-                <b>0 / 6</b>
+                <b class="text-danger">0 / 6</b>
             </h3>
             <div class="keyboard">
                 <button>a</button><button>b</button><button>c</button><button>d</button><button>e</button><button>f</button><button>g</button>
