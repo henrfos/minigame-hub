@@ -9,6 +9,14 @@
     <title>Hangman</title>
 </head>
 <body class="bg-primary">
+    <div class="game-modal">
+        <div class="content">
+            <img src="images/lost.gif" alt="gif">
+            <h3>Game over!</h3>
+            <p>The correct word was: <b>pistol</b></p>
+            <button class="play-again">Play again</button>
+        </div>
+    </div>
     <div class="container bg-light">
         <div class="hangman-container">
             <img src="images/hangman-0.svg" alt="">
@@ -25,8 +33,8 @@
                 <li class="letter"></li>
             </ul>
             <h3 class="hint">
-                Here is a hint:
-                <b>Has something to do with norway</b>
+                Hint:
+                <b>Norway</b>
             </h3>
             <h3 class="guesses">
                 Guesses:
