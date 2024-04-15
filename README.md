@@ -17,7 +17,7 @@ Welcome to the Mini Game Hub! This repository hosts a collection of five engagin
 To get started, clone this repository to your local machine using Git.
 
 ```bash
-git clone https://github.com/noroff-backend-1/oct23ft-sp1-ca-1-henrfos.git](https://github.com/henrfos/minigames-website
+git clone https://github.com/henrfos/minigames-website
 ```
 2. Web Application Setup
 
