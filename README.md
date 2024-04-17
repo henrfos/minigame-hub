@@ -32,13 +32,6 @@ To get started, clone this repository to your local machine using Git.
 ```bash
 git clone https://github.com/henrfos/minigames-website
 ```
-2. Web Application Setup
-
-Navigate to the Web Application folder where the project code resides.
-
-```bash
-cd (Web Application)
-```
 
 ## Running the application
 
