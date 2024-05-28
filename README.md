@@ -1,6 +1,6 @@
 # Mini Game Hub
 
-Welcome to the Mini Game Hub! This repository hosts a collection of five engaging browser-based games designed to provide hours of fun and challenge. Below you will find details on each game and how to navigate the repository.
+Welcome to the Mini Game Hub! This repository hosts a collection of five browser-based games. Below you will find details on each game and how to navigate the repository.
 
 ## Games Included
 
